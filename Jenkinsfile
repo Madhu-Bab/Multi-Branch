@@ -9,4 +9,5 @@ node{
    stage('Deployment Stage'){
        tool name: 'maven3', type: 'maven'
          sh 'mvn deploy'
- }  
+  }  
+}
